@@ -2193,3 +2193,45 @@ input, select, textarea {
 			}
 
 		}
+
+		.about-me-name{
+			display: flex;
+			margin-left: 18px;
+			/* justify-content: center; */
+		}
+
+		.profile-size{
+			/* width: 15px; */
+			height: 490px;
+			display: flex;
+			border-radius: 10px;
+			/* margin-left: 500px; */
+			/* justify-content: flex-end; */
+		}
+
+		.top-section{
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			margin: 20px;
+		}
+		
+		.bio{
+			display: flex;
+			flex-direction: column;
+		}
+
+		.bullets{
+			display: flex;
+			flex-direction: row;
+		}
+		
+		.bulletlist1{
+			list-style: none;
+			margin-left: -30px;
+		}
+
+		.bulletlist2{
+			list-style: none;
+			/* margin-left: 40px; */
+		}
