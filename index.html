@@ -11,6 +11,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<script src="https://kit.fontawesome.com/03abe323f9.js" crossorigin="anonymous"></script>
 	</head>
 	<body class="is-preload">
 
@@ -20,11 +21,11 @@
 				<!-- Nav -->
 					<nav id="nav">
 						<a href="#" class="icon solid fa-home"><span>Home</span></a>
-						<a href="#contact" class="icon solid fa-user"><span>Contact</span></a>
+						<a href="#me" class="icon solid fa-user"><span>Me</span></a>
 						<a href="#work" class="icon solid fa-code"><span>Work</span></a>
-						<a href="#music" class="icon solid fa-music"><span>Music</span></a>
-						<a href="https://www.linkedin.com/in/alec-choy-387aab13b/" class="icon brands fa-linkedin"><span>LinkedIn</span></a>
-						<a href="https://www.linkedin.com/in/alec-choy-387aab13b/" class="icon brands fa-github"><span>Github</span></a>
+						<!-- <a href="#music" class="icon solid fa-music"><span>Music</span></a> -->
+						<a href="https://www.linkedin.com/in/alec-choy-387aab13b/" target="_blank" class="icon brands fa-linkedin"><span>LinkedIn</span></a>
+						<a href="https://github.com/Alecchoy" target="_blank" class="icon brands fa-github"><span>Github</span></a>
 						<!-- <a href="#music" class="icon solid fa-user-music"><span>Nusic</span></a> -->
 
 					</nav>
@@ -43,9 +44,9 @@
 									<!-- <p>Nice to meet you all :)</p> -->
 								</header>
 								<p></p>
-								<a href="#work" class="jumplink pic">
+								<a href="#me" class="jumplink pic">
 									<span class="arrow icon solid fa-chevron-right"><span>See my work</span></span>
-									<img src="images/pic11.jpg" alt="" />
+									<img src="images/me.png" alt="" />
 								</a>
 							</article>
 
@@ -55,20 +56,27 @@
 									<h2>Work</h2>
 								</header>
 								<p>
-									Phasellus enim sapien, blandit ullamcorper elementum eu, condimentum eu elit.
-									Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
-									luctus elit eget interdum.
+									I am experienced in JavaScript, React, Redux, Ruby, Rails, HTML, CSS, MongoDB, Node, and Express. Here are three projects that I have created.
 								</p>
 								<section>
-									<div class="row">
-										<div class="col-4 col-6-medium col-12-small">
-											<a href="https://meal-in.herokuapp.com/#/" class="image fit"><img src="images/mealin.png" alt=""></a>
+									<div class="work-section">
+										<div>
+											<div>
+												<div class="descrip bb"> Meal'in | UI Lead for MERN Stack Project</div>
+											</div>
+											<a href="https://meal-in.herokuapp.com/#/" target="_blank" class="image fit bb"><img src="images/mealin.png" class="yolo" alt=""></a>
 										</div>
-										<div class="col-4 col-6-medium col-12-small">
-											<a href="https://insombryte.herokuapp.com/" class="image fit"><img src="images/ensombrite.png" alt=""></a>
+										<div >
+											<div>
+												<div class="descrip bb">Ensombrite | Full Stack Project with Ruby on Rails Backend and React Frontend</div>
+											</div>
+											<a href="https://ensombrite.herokuapp.com/" target="_blank" class="image fit"><img src="images/ensombrite.png" class="yolo" alt=""></a>
 										</div>
-										<div class="col-4 col-6-medium col-12-small">
-											<a href="https://alecchoy.github.io/LittleFighterz/" class="image fit"><img src="images/littlefighterz.png" alt=""></a>
+										<div>
+											<div>
+												<div class="descrip bb">One Piece Little Fighterz | Vanilla Javascript 1 v 1 Platform Fighter</div>
+											</div>
+											<a href="https://alecchoy.github.io/LittleFighterz/" target="_blank" class="image fit"><img src="images/littlefighterz.png" class="yolo" alt=""></a>
 										</div>
 
 				
@@ -77,11 +85,8 @@
 								</section>
 							</article>
 
-						<!-- Contact -->
-							<article id="contact" class="panel">
-								<header>
-									<h2 class="about-me-name">a lil about me</h2>
-								</header>
+						<!-- me -->
+							<article id="me" class="panel">
 								<!-- <form action="#" method="post"> -->
 									<div>
 										<!-- <div class="row"> -->
@@ -89,69 +94,87 @@
 											<div class="top-section">
 												<div class="profile-intro">
 													<div class="bio">
-														<div>
-															Hi, My name is Alec Choy
+														<div class="mynameis">
+															Hi! My name is Alec Choy
 														</div>
-														<div>
+														<div class="iama">
 															I am a software engineer
 														</div>
 														<br>
 														<div>
 															<div>
-																- Born in LA
+																<i class="fa-solid fa-house"></i>&nbsp;&nbsp;Born in LA
 															</div>
 															<div>
-																- Graduated from UC Riverside
+																<i class="fa-solid fa-user-graduate"></i>&nbsp;&nbsp;Graduated from UC Riverside
 															</div>
-																 - Leveled up in SF
+															<i class="fa-solid fa-code"></i>&nbsp;&nbsp;Leveled up in SF
 															 <div>
 
 															<br>
-															<div>
-																Fun fact!
-
-															</div>
-															<div>
-																I drummed for Kanye West during college!
-															</div>
+														
 														</div>
 														<br>
-														<div className="passions">My Current Passions</div>
-														<div class="bullets">
-															<ul class="bulletlist1">
-																<li>Coding</li>
-																<li>Creating</li>
-																<li>Politics</li>
-																
-															</ul>
-															<ul class="bulletlist2">
-																<li>Crypto</li>
-																<li>One Piece</li>
-																<li>Valorant</li>
-															</ul>
+														<div>
+															<div class="passions">My Current Passions</div>
+															<div class="bullets">
+																<ul class="bulletlist1">
+																	<li><i class="fa-solid fa-terminal"></i>&nbsp;&nbsp;Coding</li>
+																	<li><i class="fa-solid fa-hammer"></i>&nbsp;&nbsp;Creating</li>
+																	<li><i class="fa-solid fa-scale-balanced"></i>&nbsp;&nbsp;Politics</li>
+																	<li><i class="fa-solid fa-computer"></i>&nbsp;&nbsp;Cryptominig</li>
+																</ul>
+																<ul class="bulletlist2">
+																	<li><i class="fa-solid fa-arrow-trend-up"></i>&nbsp;&nbsp;Economics</li>
+																	<li><i class="fa-solid fa-skull-crossbones"></i>&nbsp;&nbsp;One Piece</li>
+																	<li><i class="fa-solid fa-headset"></i>&nbsp;&nbsp;Valorant</li>
+																	<li><i class="fa-solid fa-music"></i>&nbsp;&nbsp;Music</li>
+																</ul>
+															</div>
 
 														</div>
 
 														 </div> 
 													</div>
 												</div>
-												<a href="#" class=""><img class="profile-size"src="images/profile-pic.jpg" alt=""/></a>
+												<div class="toasty">
+													<a href="#" class=""><img class="profile-size"src="images/profile-pic.jpg" alt=""/></a>
+													<br>
+													<div>
+														<div>
+															Random Flex&nbsp;&nbsp;<i class="fa-solid fa-drum"></i>
+
+														</div>
+														<div class="texty">
+															I drummed for Kanye West during college!
+														</div>
+
+													</div>
+												</div>
 											</div>
 											<!-- </div> -->
-											<div class="col-6 col-12-medium">
-												I've always had an interest in tech. From building my own cryptomining rig, starting my own e-commerce store, and creating music on my off-time, I've enjoyed the aspect of creating things and that is why I took the App Academy Full Stack BootCamp. I dove into learning as much as I possibly could and a result of that effort is that now, I am a software engineer experienced in JavaScript, React, Redux, Ruby, Rails, HTML, CSS, MongoDB, Node, and Express!
-												<!-- <input type="text" name="name" placeholder="Name" /> -->
+											<div class="chicken">
+												<div class="col-6 col-12-medium">
+													<div class="tasty">A lil more about me </div>
+													<div class="bioo">
+														I've always had an interest in tech. From building my own cryptomining rig, starting my own e-commerce store, and creating music on my off-time, I've enjoyed the aspect of creating things and that is why I took the App Academy Full Stack BootCamp. I dove into learning as much as I possibly could and a result of that effort is that now, I am a software engineer experienced in JavaScript, React, Redux, Ruby, Rails, HTML, CSS, MongoDB, Node, and Express!
+														<br>
+														<br>
+														<br>
+														<div class="col-6 col-12-medium">
+															 Check out my github! I have some interesting projects to show :)
+															<!-- <input type="text" name="email" placeholder="Email" /> -->
+														</div>
+														<div class="col-12">
+															<!-- <input type="text" name="subject" placeholder="Subject" /> -->
+															Or my produced beats if you're more interested in that ;)
+														</div>
+													</div>
+													<!-- <input type="text" name="name" placeholder="Name" /> -->
+												</div>
+
 											</div>
-											<br>
-											<div class="col-6 col-12-medium">
-												If you have time, please check out my github! I might have some interesting projects to show :)
-												<!-- <input type="text" name="email" placeholder="Email" /> -->
-											</div>
-											<br> 
-											<div class="col-12">
-												<!-- <input type="text" name="subject" placeholder="Subject" /> -->
-												Or my produced beats if you're more interested in that ;)
-											</div>
+										
 											<div class="col-12">
 												<!-- <textarea name="message" placeholder="Message" rows="6"></textarea> -->
 											</div>
@@ -203,7 +226,7 @@
 				<!-- Footer -->
 					<div id="footer">
 						<ul class="copyright">
-							<li>&copy; Untitled.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							<li>&copy; Alec Choy.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 						</ul>
 					</div>
 

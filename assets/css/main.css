@@ -2202,9 +2202,12 @@ input, select, textarea {
 
 		.profile-size{
 			/* width: 15px; */
-			height: 490px;
+			margin-top: -20px;
+			width: 300px;
+			height: 370px;
 			display: flex;
 			border-radius: 10px;
+			object-fit: cover;
 			/* margin-left: 500px; */
 			/* justify-content: flex-end; */
 		}
@@ -2212,7 +2215,7 @@ input, select, textarea {
 		.top-section{
 			display: flex;
 			flex-direction: row;
-			justify-content: space-between;
+			justify-content: space-around;
 			margin: 20px;
 		}
 		
@@ -2234,4 +2237,74 @@ input, select, textarea {
 		.bulletlist2{
 			list-style: none;
 			/* margin-left: 40px; */
+		}
+
+		.yolo{
+			width: 200px;
+			height: 400px;
+			box-shadow: 0 0 11px #d4d8df;
+			padding: 30px;
+		}
+
+		.work-section{
+			display: flex;
+			flex-direction: column;
+		}
+
+		.descrip{
+			display: flex;
+			justify-content: center;
+			margin-top: -10px;
+			margin-bottom: -10px;
+		}
+
+		.aa{
+			padding-top: 10px;
+		}
+
+		.bb{
+			padding: 20px;
+		}
+
+		.mynameis{
+			font-weight: 1000;
+			color: rgb(27, 56, 76);
+			font-size: 30px;
+		}
+
+		.iama{
+			color: rgb(26, 46, 60);
+			font-size: 20px;
+		}
+
+		.tasty{
+			font-weight: 800;
+			color: rgb(26, 46, 60);
+		}
+
+		.bioo{
+			width: 95%;
+			word-spacing: 3px;
+			padding: 10px;
+		}
+
+		.chicken{
+			padding: 10px;
+			/* border: 10px black solid; */
+			background-color: #ebfafa;
+			border-radius: 5px;
+			width: 100%;
+			box-shadow: 0 0 11px #d4d8df;
+			/* margin-left: 0 */
+			/* : 20px; */
+		}
+
+		.texty{
+			/* border: 1px black solid; */
+			width: 90%;
+			font-size: 15px;
+		}
+
+		.toasty{
+			margin-left: -20px;
 		}
