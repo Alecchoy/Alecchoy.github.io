@@ -1310,7 +1310,7 @@ input, select, textarea {
 	}
 
 	body {
-		background-image: url("images/overlay.png"), url("images/gradient.jpg");
+		background-image: url("images/overlay.png"), url("images/concrete.jpg");
 		background-repeat: repeat, no-repeat;
 		background-size: auto, 100% 100%;
 		background-attachment: fixed;
@@ -2307,4 +2307,44 @@ input, select, textarea {
 
 		.toasty{
 			margin-left: -20px;
+		}
+
+		.contact-links{
+			display: flex;
+			flex-direction: row;
+			justify-content: space-evenly;
+			color: black;
+			/* border: 1px black solid; */
+			width: 55%;
+			margin-left: -15px;
+			/* margin-left: -20px; */
+			/* padding-left: 20px; */
+			/* padding-right: 20px; */
+			/* text-decoration: none; */
+		}
+
+		.loc{
+			/* border: 1px black solid; */
+			width: 300px;
+			height: 200px;
+			margin-top: 70px;
+
+		}
+		.loc1{
+			border: 1px black solid;
+			width: 200px;
+		}
+
+		a{
+			text-decoration: none;
+			color: rgb(30, 72, 112);
+			font-weight: 400;
+		}
+
+
+		.locate{
+			display: flex;
+			justify-content: space-evenly;
+			width: 110%;
+			margin-left: -56px;
 		}
